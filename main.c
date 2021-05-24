@@ -11,7 +11,7 @@ int main(void){
 		
 	while(1){
 		for(uint8_t ledPin=0;ledPin!=8;ledPin++){
-			LED_PORT = (1 << ledPin);							///< Shift 1 rightwards by a bit per turn.
+			LED_PORT = (1 << ledPin);						///< Shift 1 rightwards by a bit per turn.
 			_delay_ms(100);
 		}
 		for(uint8_t ledPin=0;ledPin!=6;ledPin++){
